@@ -7,7 +7,6 @@
     background-color: white;
     border: 1px solid white;
     border-radius: 0;
-    padding: 20px 0;
 }
 .my-navbar-button{   
     border: 1px solid blue;
@@ -20,10 +19,9 @@
     background-color: blue;
 }
 /*MAIN*/
-section{
+.first-section{
     background-image: url(img/bg-banner-home.jpg);
     background-size: cover;
-    padding: 20px 0;
 }
 .my-box-first-section{
     background-color: white;
@@ -55,6 +53,13 @@ section{
     text-align: center;
     font-size: 10px;    
 }
+.second-section{
+    background-color:rgb(243, 245, 249) ;
+}
+.second-section img{
+    max-width: 100%;
+    height: 100px;
+}
 /*CLASSI RANDOM*/
 .color-white{
     color: white;
@@ -64,4 +69,7 @@ section{
 }
 .color-blue{
     color: blue;
+}
+.my-padding{
+    padding: 20px 0;
 }
