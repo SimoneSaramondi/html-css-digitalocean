@@ -36,6 +36,37 @@ section{
 .my-box-first-section h4{
     text-align: center;
 }
-.my-box-first-section h4:last-child{
+.my-box-first-section h4:last-of-type{
     color: blue;
+}
+.my-box-first-section button:first-of-type{
+    width: 100%;
+    background-color: rgb(87, 154, 255);
+    border: 1px solid transparent;
+    border-radius: 5px;  
+    margin-bottom: 5px;  
+}
+.my-box-first-section button a:first-of-type{
+    color: white;
+}
+.my-box-first-section button:last-of-type{
+    width: 100%;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px; 
+    margin-bottom: 5px;
+}
+.my-box-first-section button a:last-of-type{
+    color: black;
+}
+.my-google{
+    float: left;
+    position: relative;
+    top: 2px;
+}
+.my-box-first-section p{
+    color:black;
+    text-align: center;
+    font-size: 10px;
+    
 }
