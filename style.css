@@ -9,8 +9,7 @@
     border-radius: 0;
     padding: 20px 0;
 }
-.my-navbar-button{
-    color: blue;
+.my-navbar-button{   
     border: 1px solid blue;
 }
 .my-navbar-img{
@@ -26,18 +25,11 @@ section{
     background-size: cover;
     padding: 20px 0;
 }
-.my-first-section h1,
-.my-first-section p{
-    color: white;
-}
 .my-box-first-section{
     background-color: white;
 }
 .my-box-first-section h4{
     text-align: center;
-}
-.my-box-first-section h4:last-of-type{
-    color: blue;
 }
 .my-box-first-section button:first-of-type{
     width: 100%;
@@ -46,9 +38,6 @@ section{
     border-radius: 5px;  
     margin-bottom: 5px;  
 }
-.my-box-first-section button a:first-of-type{
-    color: white;
-}
 .my-box-first-section button:last-of-type{
     width: 100%;
     background-color: white;
@@ -56,17 +45,23 @@ section{
     border-radius: 5px; 
     margin-bottom: 5px;
 }
-.my-box-first-section button a:last-of-type{
-    color: black;
-}
 .my-google{
     float: left;
     position: relative;
     top: 2px;
+    max-width: 15px;
 }
 .my-box-first-section p{
-    color:black;
     text-align: center;
-    font-size: 10px;
-    
+    font-size: 10px;    
+}
+/*CLASSI RANDOM*/
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;   
+}
+.color-blue{
+    color: blue;
 }
