@@ -63,8 +63,7 @@
 }
 .my-list{
     max-width: 100px;
-    border-left: 1px solid rgb(204, 204, 204);
-    list-style-type: none;
+    border-left: 1px solid rgb(204, 204, 204);    
 }
 .my-heigt{
     min-height: 180px;
@@ -99,9 +98,21 @@
 .color-blue{
     color: blue;
 }
+.color-grey{
+    color: grey;
+}
 .my-padding{
     padding: 20px 0;
 }
-.background-color{
-    back
+.my-second-padding{
+    padding: 5px 0;
+}
+.background-color-blue{
+    background-color: blue;
+}
+li{
+    list-style-type: none;
+}
+.border-bottom{
+    border-bottom: 1px solid white;
 }
