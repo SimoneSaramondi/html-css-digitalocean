@@ -90,9 +90,30 @@
     float: right;
     color: rgb(111, 123, 151);
 }
+.seventh-section h2{
+    padding-bottom: 60px;
+}
 .seventh-section img{
     width: 200px;
     padding: 10px;
+}
+.eighth-section button{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    border: 1px solid transparent;
+    padding: 5px;
+}
+footer img{
+    padding-bottom: 20px;
+}
+footer p,
+footer a{
+    font-size: 10px;
+}
+footer ul{
+    margin-left: -20px;
 }
 /*CLASSI RANDOM*/
 .color-white{
@@ -118,6 +139,9 @@
 }
 .background-color-white{
     background-color: white;
+}
+.background-color-darkblue{
+    background-color: rgb(3, 28, 78);
 }
 li{
     list-style-type: none;
