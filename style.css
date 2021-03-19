@@ -53,6 +53,7 @@
     text-align: center;
     font-size: 10px;    
 }
+.seventh-section,
 .fourth-section,
 .second-section{
     background-color:rgb(243, 245, 249) ;
@@ -81,12 +82,17 @@
     border: 1px solid blue;
     display: inline-block;
 }
+.seventh-section .my-box:first-child,
 .fourth-section .my-box:first-child{
     background-color: blue;
 }
 .my-first-arrow{
     float: right;
     color: rgb(111, 123, 151);
+}
+.seventh-section img{
+    width: 200px;
+    padding: 10px;
 }
 /*CLASSI RANDOM*/
 .color-white{
@@ -109,6 +115,9 @@
 }
 .background-color-blue{
     background-color: blue;
+}
+.background-color-white{
+    background-color: white;
 }
 li{
     list-style-type: none;
