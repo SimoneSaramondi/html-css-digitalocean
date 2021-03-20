@@ -116,6 +116,45 @@ footer a{
 footer ul{
     margin-left: -20px;
 }
+.my-second-box{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    bottom:50px;
+    right:50px;
+    z-index:0;
+    background-image: url(img/shark.png);
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box-text{
+    width: 250px;
+    background-color: white;
+    position: fixed;
+    bottom:50px;
+    right:120px;
+    z-index:0;
+    padding: 10px;
+    border-radius: 5px;
+}
+.triangle{
+    position: relative;
+    left: 75px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+}
+.bedge{
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    position: relative;
+    bottom: 12px;
+    left: 30px;
+    border-radius: 50%;
+    border: 2px solid white;
+}
 /*CLASSI RANDOM*/
 .color-white{
     color: white;
