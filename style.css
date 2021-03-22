@@ -1,5 +1,4 @@
 /*HEADER*/
-
 @media all and (max-width: 991px){
     header ul{
         display: none;
@@ -12,13 +11,9 @@
     border: 0;
 }
 .my-navbar{
-    background-color: white;
     border: 1px solid white;
     border-radius: 0;
     margin-bottom: 0;
-}
-.my-navbar-img{
-    padding-top: 5px;
 }
 .my-navbar .navbar-toggle .icon-bar{
     background-color: blue;
@@ -28,16 +23,12 @@
     border-color: blue;
 }
 header ul li:hover{
-    background-color: lightblue;
-    border-radius: 5px;
+    background-color: lightblue;    
 }
 /*MAIN*/
 .first-section{
     background-image: url(img/bg-banner-home.jpg);
     background-size: cover;
-}
-.my-box-first-section{
-    background-color: white;
 }
 .my-box-first-section h4{
     text-align: center;
@@ -46,14 +37,12 @@ header ul li:hover{
     width: 100%;
     background-color: rgb(87, 154, 255);
     border: 1px solid transparent;
-    border-radius: 5px;  
     margin-bottom: 5px;  
 }
 .my-box-first-section button:last-of-type{
     width: 100%;
     background-color: white;
     border: 1px solid transparent;
-    border-radius: 5px; 
     margin-bottom: 5px;
 }
 .my-google{
@@ -86,8 +75,11 @@ header ul li:hover{
     padding-bottom: 15px;
 }
 .my-arrow{
-    padding-top: 100px; 
+   height: 250px;
 }    
+.my-arrow i{
+    padding-top: 125px;
+}
 .my-box{
     width: 10px;
     height: 10px;
@@ -114,7 +106,6 @@ header ul li:hover{
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    border-radius: 5px;
     border: 1px solid transparent;
     padding: 5px;
 }
@@ -212,4 +203,7 @@ li{
 }
 .color-whater{
     color: rgb(0, 150, 198);
+}
+.my-border-radius{
+    border-radius: 5px;
 }
