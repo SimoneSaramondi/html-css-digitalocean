@@ -1,4 +1,12 @@
-/*HEADER*/
+header img{
+    padding: 10px;
+    
+}
+
+
+
+
+/*HEADER
 .my-navbar-second-block{
     position: relative;
     left: 150px;
@@ -18,7 +26,7 @@
 .my-navbar .navbar-toggle .icon-bar{
     background-color: blue;
     border: blue;
-}
+}*/
 /*MAIN*/
 .first-section{
     background-image: url(img/bg-banner-home.jpg);
