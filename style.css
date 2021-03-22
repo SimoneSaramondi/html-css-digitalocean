@@ -1,11 +1,12 @@
 /*HEADER*/
-.my-navbar button{
+.my-navbar .first-button-type{
     border: 0;
 }
 .my-navbar{
     background-color: white;
     border: 1px solid white;
     border-radius: 0;
+    margin-bottom: 0;
 }
 .my-navbar-img{
     padding-top: 5px;
@@ -13,6 +14,13 @@
 .my-navbar .navbar-toggle .icon-bar{
     background-color: blue;
     border: blue;
+}
+.my-navbar-button{
+    border-color: blue;
+}
+header ul li:hover{
+    background-color: lightblue;
+    border-radius: 5px;
 }
 /*MAIN*/
 .first-section{
