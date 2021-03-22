@@ -1,4 +1,14 @@
 /*HEADER*/
+
+@media all and (max-width: 991px){
+    header ul{
+        display: none;
+    }
+    header .first-button-type{
+        display: block;
+    }
+}
+
 .my-navbar .first-button-type{
     border: 0;
 }
