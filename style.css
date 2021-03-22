@@ -8,7 +8,6 @@
         display: block;
     }
 }
-
 .my-navbar .first-button-type{
     border: 0;
 }
@@ -152,6 +151,10 @@ footer ul{
     z-index:0;
     padding: 10px;
     border-radius: 5px;
+    display: none;
+}
+.my-second-box:hover .box-text{
+    display: block;
 }
 .triangle{
     position: relative;
